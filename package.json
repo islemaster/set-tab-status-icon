@@ -1,0 +1,16 @@
+{
+  "name": "set-tab-status-icon",
+  "version": "1.0.0",
+  "description": "Dynamically set a colored status icon as the page favicon in the tab bar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "status",
+    "favicon"
+  ],
+  "author": "Brad Buchanan <islemaster@gmail.com> (http://bradleycbuchanan.com)",
+  "license": "MIT"
+}
