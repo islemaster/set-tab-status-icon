@@ -11,6 +11,7 @@
  *   // Set tab icon to a custom color
  *   setTabStatusIcon('#62a938');
  */
+/* global define, module */ // Be AMD and CommonJS-friendly without bothering linter.
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory);
