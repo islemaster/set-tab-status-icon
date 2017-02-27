@@ -1,9 +1,9 @@
 /**
  * @file Dynamic status icon generator
  * @author Brad Buchanan <bradley.c.buchanan@gmail.com>
- * 
+ *
  * Loosely based on https://gist.github.com/mathiasbynens/428626
- * 
+ *
  * @example
  *   // Set tab icon to green for passing
  *   setTabStatusIcon('pass');
@@ -37,7 +37,7 @@
   };
 
   var LINK_ELEMENT_ID = 'tab-status-icon-link';
-  
+
   /**
    * Replace the favicon reference in the document head with a new one.
    */
@@ -55,7 +55,7 @@
     newLink.href = imageUrl;
     head.appendChild(newLink);
   }
-  
+
   /**
    * Generates a PNG dataURL for a status icon displaying the
    * given color and progress.
