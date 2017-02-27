@@ -4,7 +4,7 @@
   "description": "Dynamically set a colored status icon as the page favicon in the tab bar.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint *.js"
   },
   "keywords": [
     "browser",
@@ -12,5 +12,8 @@
     "favicon"
   ],
   "author": "Brad Buchanan <islemaster@gmail.com> (http://bradleycbuchanan.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.16.1"
+  }
 }
