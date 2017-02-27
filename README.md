@@ -1,5 +1,7 @@
 # set-tab-status-icon
 
+![Travis CI](https://travis-ci.org/islemaster/set-tab-status-icon.svg?branch=master)
+
 A single function that will change the current page's favicon (displayed in the tab bar) to a simple colored status icon, on demand.
 
 ![status icon preview](preview.png)
